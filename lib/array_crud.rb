@@ -7,7 +7,7 @@ arr = [10, 2, 4, 100]
 end
 
 def add_element_to_end_of_array(array, element)
- Array<<element
+ Array << element
 
 end
 
