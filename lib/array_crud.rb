@@ -3,16 +3,16 @@ def create_an_empty_array
 end
 
 def create_an_array
-arr = [10, 2, 4, 100]
+array = [10, 2, 4, 100]
 end
 
 def add_element_to_end_of_array(array, element)
- Array << element
+ array << element
 
 end
 
 def add_element_to_start_of_array(array, element)
-arr.unshift(element)
+array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
